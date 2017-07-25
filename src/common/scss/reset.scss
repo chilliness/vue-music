@@ -1,0 +1,61 @@
+html * {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  height: 100%;
+  line-height: 1;
+  overflow: hidden;
+  -webkit-text-size-adjust: 100%;
+  -webkit-overflow-scrolling: touch;
+  background: #222;
+}
+
+body, p, dd, dl, form, h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+ul, ol, input, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a, s {
+  outline: 0 none;
+  text-decoration: none;
+}
+
+img {
+  border: 0 none;
+  vertical-align: top;
+}
+
+button, input {
+  outline: 0 none;
+  border-radius: 0;
+  border: 0 none;
+  appearance: none;
+}
+
+body, button, input, textarea {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+i, em {
+  font-style: normal;
+}
+
+b, h1, h2, h3, h4, h5 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+textarea {
+  resize: none;
+  outline: 0 none;
+  overflow: auto;
+}
